@@ -33,15 +33,21 @@ Install dependencies with pip:
 
 ```bash
 pip install torch torchvision matplotlib seaborn scikit-learn
-              precision    recall  f1-score   support
 
-    airplane       0.74      0.74      0.74       100
-  automobile       0.86      0.85      0.85       100
-        bird       0.56      0.49      0.52       100
-         cat       0.48      0.49      0.48       100
-        deer       0.66      0.68      0.67       100
-         dog       0.64      0.62      0.63       100
-        frog       0.76      0.82      0.79       100
-       horse       0.78      0.76      0.77       100
-        ship       0.83      0.82      0.82       100
-       truck       0.78      0.79      0.79       100
+##OUTPUT
+                  precision    recall  f1-score   support
+
+    airplane       0.84      0.72      0.77      1000
+  automobile       0.96      0.70      0.81      1000
+        bird       0.66      0.55      0.60      1000
+         cat       0.62      0.45      0.52      1000
+        deer       0.60      0.77      0.68      1000
+         dog       0.61      0.70      0.65      1000
+        frog       0.79      0.80      0.79      1000
+       horse       0.74      0.81      0.78      1000
+        ship       0.77      0.89      0.82      1000
+       truck       0.77      0.86      0.81      1000
+
+    accuracy                           0.73     10000
+   macro avg       0.73      0.73      0.72     10000
+weighted avg       0.73      0.73      0.72     10000
